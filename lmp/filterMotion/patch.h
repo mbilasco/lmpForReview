@@ -1,7 +1,23 @@
 #ifndef PATCH_H
 #define PATCH_H
 
-#include "../../global_header.h"
+#include <iostream>
+#include <vector>
+#include <string>
+
+#include <cmath>
+#include <ctime>
+#include <cstdio>
+#include <cassert>
+#include <cstdarg>
+#include <cstdlib>
+#include <fstream>
+
+#include <opencv2/opencv.hpp>
+#include <opencv2/optflow.hpp>
+
+using namespace std;
+using namespace cv;
 
 class Patch
 {
@@ -28,7 +44,7 @@ public:
     vector<double> drawCurveOnHistogram(Mat values);
     void computeCoherentMotion(vector< vector<double> > fiveHistograme);
 
-    Rect drawPatch(Mat &picture, int bin);
+    void drawPatch(Mat &picture, int bin);
 
 private:
     void computeLocalDistribution(Mat flux);

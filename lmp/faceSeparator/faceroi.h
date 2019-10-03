@@ -1,7 +1,7 @@
 #ifndef FACEROI_H
 #define FACEROI_H
 
-#include "../../global_header.h"
+#include "../lmp_common_header.h"
 
 class FaceROI
 {

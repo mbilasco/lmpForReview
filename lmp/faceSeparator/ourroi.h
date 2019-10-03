@@ -1,7 +1,7 @@
 #ifndef OURROI_H
 #define OURROI_H
 
-#include "../../global_header.h"
+#include "../lmp_common_header.h"
 #include "faceseparator.h"
 
 class ourROI : public FaceSeparator

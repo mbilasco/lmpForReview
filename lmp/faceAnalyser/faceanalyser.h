@@ -1,7 +1,7 @@
 #ifndef FACEANALYSER_H
 #define FACEANALYSER_H
 
-#include "../../global_header.h"
+#include "../lmp_common_header.h"
 #include "../faceSeparator/faceroi.h"
 
 class faceAnalyser

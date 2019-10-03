@@ -455,9 +455,9 @@ int Patch::getDims()
  * @return
  */
 
-Rect Patch::drawPatch(Mat &picture, int bin)
+void Patch::drawPatch(Mat &picture, int bin)
 {
-    //si on veut afficher les patchs
+    //if we want to draw the patch
     //Rect _patchROI = Rect(_X-_dims,_Y-_dims,_dims*2,_dims*2);
     //rectangle(picture,_patchROI,Scalar(0,255,0));
 

@@ -1,7 +1,7 @@
 #ifndef MOTIONEXTRACTOR_H
 #define MOTIONEXTRACTOR_H
 
-#include "../global_header.h"
+#include "lmp_common_header.h"
 #include "filterMotion/patch.h"
 #include <thread>
 #include <mutex>

@@ -1,7 +1,7 @@
 #ifndef FACESEPARATOR_H
 #define FACESEPARATOR_H
 
-#include "../../global_header.h"
+#include "../lmp_common_header.h"
 #include "faceroi.h"
 
 class FaceSeparator
