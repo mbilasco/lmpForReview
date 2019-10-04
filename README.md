@@ -59,7 +59,7 @@ expression_type;subject_number;sequence_number
 
 The output is a GMD_*.csv file that contains a LibSVM-ready file containing for each subject/sequence a line describing the expression_type, followed by the cumulated lmp features over the entire sequence.
 
-== DEMO
+# DEMO #
 
 [CK+ demo](https://nextcloud.univ-lille.fr/index.php/s/tZFKLB3r8izgaPY)
 
