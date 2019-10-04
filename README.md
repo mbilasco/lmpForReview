@@ -9,7 +9,7 @@ Each CSV file is structured as follow :
 expression_type;subject_number;sequence_number
 ```
 
-Expression type values used for all dataset : 
+Expression type values used for all dataset :
 1. happy
 2. fear
 3. surprise
@@ -25,10 +25,13 @@ All dataset where restructured using the CK+ model.
       - ...
 ```
 
-Dataset have to be structured as indicated earlier. Besides for, each sequence landmarks for the first frame of the video need to be provided in the following format :
+Dataset have to be structured as indicated earlier. Besides for, each sequence landmarks for all frames of the video need to be provided in the following format :
 
 ```
-sequence_no ; x1 ; y1 ; x2 ; y2 ; ... ; x68 ; y68
+sequence_no ; x1 ; y1 ; x2 ; y2 ; ... ; x68 ; y68 # corresponding to the 1st frame of the sequence
+sequence_no ; x1 ; y1 ; x2 ; y2 ; ... ; x68 ; y68 # corresponding to the 2nd frame of the sequence
+sequence_no ; x1 ; y1 ; x2 ; y2 ; ... ; x68 ; y68 # corresponding to the 3rd frame of the sequence
+...
 ```
 
 An example is provided here : https://nextcloud.univ-lille.fr/index.php/s/PBN2dYbkGei7fGZ
@@ -59,6 +62,8 @@ expression_type;subject_number;sequence_number
 
 The output is a GMD_*.csv file that contains a LibSVM-ready file containing for each subject/sequence a line describing the expression_type, followed by the cumulated lmp features over the entire sequence.
 
+We use LibSVM (tools/easy.py) for conducting cross-validation protocol using 10 folds.
+
 # DEMO #
 
 [CK+ demo](https://nextcloud.univ-lille.fr/index.php/s/tZFKLB3r8izgaPY)
@@ -66,4 +71,3 @@ The output is a GMD_*.csv file that contains a LibSVM-ready file containing for 
 [CASIA demo](https://nextcloud.univ-lille.fr/index.php/s/dEdrNjZKgKoKjbA)
 
 [CASME2 demo](https://nextcloud.univ-lille.fr/index.php/s/5sDc3GZ4a5awLkC)
-
