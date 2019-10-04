@@ -55,11 +55,11 @@ The landmarks where generated using Kazemi et al. method.
 == DEMO
 
 CK+ demo
-![CK+ demo](https://nextcloud.univ-lille.fr/index.php/s/tZFKLB3r8izgaPY/preview)
+![CK+ demo](https://nextcloud.univ-lille.fr/index.php/s/tZFKLB3r8izgaPY)
 
 CASIA demo
-![CASIA demo](https://nextcloud.univ-lille.fr/index.php/s/dEdrNjZKgKoKjbA/preview)
+![CASIA demo](https://nextcloud.univ-lille.fr/index.php/s/dEdrNjZKgKoKjbA)
 
 CASME2 demo
-![CASME2 demo](https://nextcloud.univ-lille.fr/index.php/s/5sDc3GZ4a5awLkC/preview)
+![CASME2 demo](https://nextcloud.univ-lille.fr/index.php/s/5sDc3GZ4a5awLkC)
 
